@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- Styling -->
+        <link rel="stylesheet" type="text/css" href="./styles/calculator.css" />
+        <!-- Services -->
+        <!-- <script src="./js/styleService.js"></script> -->
+        <script src="./js/meatFoodInfoService.js"></script>
+        <script src="./js/veganFoodInfoService.js"></script>
+        <script src="./js/calculatorService.js"></script>
+        <script src="./js/initService.js"></script>
+        <!-- Title -->
+        <title>Karo calories calculator</title>
+    </head>
+    <body>
+        <header id="header">
+            <h1>Calories calculator</h1>
+        </header>
+        <!-- The main container -->
+        <main id="mainContainer">
+            <div id="leftContainer">
+                <h2 class="center">How many calories have you eaten?</h2>
+            </div>
+            <div id="comapreContainer">
+            </div>
+            <div id="rightContainer">
+                <h2 class="center">How many calories have you burned?</h2>
+            </div>
+            <div style="clear: both;"></div>
+            <div id="resultContainer" >
+                <h2 class="center">Result</h2>
+                <div id="labelContainer">
+                    <span id="compareLabel"></span>
+                    <br>
+                    <span id="resultLabel"></span>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+            <!-- one step is 0.05kcal -->
+        </main>
+    </body>
+</html>
